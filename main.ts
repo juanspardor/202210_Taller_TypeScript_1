@@ -22,7 +22,7 @@ function cargarDatosEnTabla(lista: Serie[]):void
     {
         let trElement = document.createElement("tr");
         trElement.innerHTML = `<td class = "table-active font-weight-bold">${serie.indice}</td>
-                           <td class = "table-active">${serie.name}</td>
+                           <td class = "table-active" style="color: #14aaf5;">${serie.name}</td>
                            <td class = "table-active">${serie.channel}</td>
                            <td class = "table-active">${serie.seasons}</td>`;
         seriesBody.appendChild(trElement);
